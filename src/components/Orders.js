@@ -3,11 +3,11 @@ import '../App.css';
 import OrderBook from './OrderBook';
 import TradeHistory from './TradeHistory';
 class Orders extends Component {
-  render() {
+  render () {
     return (
-      <div className="OrdersSection">
-       <OrderBook></OrderBook>
-       <TradeHistory></TradeHistory>
+      <div className='OrdersSection'>
+        <OrderBook />
+        <TradeHistory />
       </div>
     );
   }

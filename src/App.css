@@ -9,6 +9,7 @@
     display: flex;
     align-items: stretch;
     -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     flex-direction: row;
     
@@ -367,9 +368,9 @@
     
 }
 
-.CoinTabs{ 
+/*.CoinTabs{ 
 
-}
+}*/
 
 .CoinTabsLink{
     color: #ffffff;
@@ -420,9 +421,9 @@
 
 
 @media only screen and (max-width: 1200px) {
-    body {
+    /*body {
       
-    }
+    }*/
 
     .Container{
         flex-direction: row;

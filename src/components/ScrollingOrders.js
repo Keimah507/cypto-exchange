@@ -4,35 +4,35 @@ import OrderBook from './OrderBook';
 import TradeHistory from './TradeHistory';
 import OrderBookLi from './OrderBookLi';
 class ScrollingOrders extends Component {
-  render() {
+  render () {
     return (
-      <div className="ScrollingOrders">
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
-      <OrderBookLi></OrderBookLi>
+      <div className='ScrollingOrders'>
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
+        <OrderBookLi />
       </div>
     );
   }

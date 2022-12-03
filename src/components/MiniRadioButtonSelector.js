@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
 class MiniRadioButtonSelector extends Component {
-  render() {
+  render () {
     return (
-      <div className="MiniRadioButtonSelector">
-        <button >
-        25% 
+      <div className='MiniRadioButtonSelector'>
+        <button>
+          25%
         </button>
-        </div>
+      </div>
     );
   }
 }

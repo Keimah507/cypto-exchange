@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import '../App.css';
 class SubmitButton extends Component {
-  render() {
+  render () {
     return (
-      <div> 
-      <div className="SubmitButton">
-      <form>
-        <button>{this.props.text}</button>
-      </form>
-      </div>
-      
+      <div>
+        <div className='SubmitButton'>
+          <form>
+            <button>{this.props.text}</button>
+          </form>
+        </div>
+
       </div>
     );
   }

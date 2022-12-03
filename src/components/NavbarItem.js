@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../App.css';
 class NavbarItem extends Component {
-  render() {
+  render () {
     return (
-        <div className="NavbarItem">Time <div>18 March 2019, 22:51:21</div></div>
+      <div className='NavbarItem'>Time <div>18 March 2019, 22:51:21</div></div>
     );
   }
 }

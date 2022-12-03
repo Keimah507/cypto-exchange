@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import '../App.css';
 class OrderBookLi extends Component {
-  render() {
+  render () {
     return (
-      <div className="OrderBookLi">
-      <div className="OrderBookLiBar"></div>
+      <div className='OrderBookLi'>
+        <div className='OrderBookLiBar' />
         <li>
-        <div>-</div>
-        <div>25.00000</div>
-        <div className="OrderBookLiPrice"> 0.05300</div>
+          <div>-</div>
+          <div>25.00000</div>
+          <div className='OrderBookLiPrice'> 0.05300</div>
         </li>
       </div>
     );

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
 class ButtonOrderSubmit extends Component {
-  render() {
+  render () {
     return (
-      <form >
-      <button className="SubmitOrderButton"> BUY</button> 
+      <form>
+        <button className='SubmitOrderButton'> BUY</button>
       </form>
     );
   }
